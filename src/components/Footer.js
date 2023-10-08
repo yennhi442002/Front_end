@@ -37,11 +37,32 @@ const Footer = () => {
           <div className='row'>
             <div className='col-4'>
               <h4 className='text-white mb-4'>Customer Support</h4>
-              <div className='footer-links d-flex flex-column'>
-                <Link className='text-white py-2 mb-1'>Hotline</Link>
-                <Link className='text-white py-2 mb-1'>Frequently Asked Questions</Link>
-                <Link className='text-white py-2 mb-1'>Ordering Guide</Link>
-                <Link className='text-white py-2 mb-1'>Return Policy</Link>
+              <div>
+                <address className='text-white fs-6'>Shop: 81 Ho Tung Mau,
+                  Ben Nghe Ward, <br />District 1, Ho Chi Minh City <br />
+                </address>
+                <a href="tel:+84 12345678" className='mt-3 d-block mb-2 text-white'>Hotline: +84 12345678 (Free)</a>
+                <a href="mailto:bellabloom@gmail.com" className='mt-2 d-block mb-2 text-white'>Gmail: bellabloom@gmail.com</a>
+                <div className='social_icons'>
+                  <a href='#'>
+                    <img src='image/fb.svg' alt='facebook_icon d-flex align-items-center gap-15' />
+                  </a>
+                  <a href='#'>
+                    <img src='image/icon_tiktok.svg' alt='tiktok_icon d-flex align-items-center gap-15' />
+                  </a>
+                  <a href='#'>
+                    <img src='image/instagram.svg' alt='instagram_icon d-flex align-items-center gap-15' />
+                  </a>
+                </div>
+                <div className='payment_icon'>
+                  <a href='#'>
+                    <img src='image/visa.svg' alt='visa_icon d-flex align-items-center gap-15' />
+                  </a>
+                  <a href='#'>
+                    <img src='image/mastercard.svg' alt='mastercard_icon d-flex align-items-center gap-15' />
+                  </a>
+
+                </div>
               </div>
             </div>
             <div className='col-3'>
